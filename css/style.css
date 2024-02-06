@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../assets/fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url(../assets/fonts/recoleta/Recoleta-RegularDEMO.otf);
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    color: #404040;
+    background-color: #F9FCFE;
+}
+
+.navbar {
+    padding-left: 24px;
+}
+
+
+.navbar-brand , .offcanvas-title {
+    color: #d3d4fa;
+    font-weight:bolder;
+    font-family: 'Poppins'; 
+}
+
+/* main */
+
+/* hero*/
+
+.hero{
+    background-image: url(../absets/images/backgroundhero.jpg);
+
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 42px;
+    padding-top: 140px;
+}
+
+.hero h1 {
+    font-family:'Recoleta','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#222A36;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: left;
+    }
+    
+    .hero h2 h3  {
+        text-align:justify;
+        font-size: 120px;
+    }
+
+    h2  {
+        color: #545abc;
+    }
+    
+    .hero p {
+        text-align: left;
+        color:#3e3e3e;
+        font-size: 20px;
+    }
+    
+    .hero a {
+        text-align: left;
+        background-color: #545abc;
+        color:#f8f8f8;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .btn-primary{
+        background-color: #545abc;
+        border-radius: 16;
+        color:#f8f8f8;
+        font-size: 24px;
+        font-weight:400 ;
+        border: none;
+    }
+
+    /* banner*/
+    .banner{
+        background-image: url(../absets/images/banda\ tools.png);
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 42px;
+        
+    }
+
+    /* servicios*/
+    .servicios {
+        background-color:#f8f8f8;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 42px;
+    }
+
+    h1 {
+        font-family:'Recoleta','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#222A36;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    }
+
+    .servicios  p {
+        text-align: center;
+        color:#3e3e3e;
+        font-size: 20px; 
+    } 
+
+    /* proyectos*/
+    .proyectos {
+        background-image: url(../absets/images/background-portfolio.png);
+        background-size:cover;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 42px;
+    }
+
+    /*footer*/
+    .footer {
+        background-color:#222A36;
+        color: #f8f8f8;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 42px;
+        margin: 0;
+        text-align: center;
+    }
+
+    
+    .footer ul {
+        list-style: none;
+    }
+    
+    .footer-link {
+        text-decoration: none;
+        font-size: 18px;
+        color:#f8f8f8;
+        font-weight: border;
+    }
+    
+    .footer h5{
+        font-size: 14px;
+        color:#f8f8f8;
+        font-weight:100;
+        text-align: center;
+    }
+
+    .row{
+        margin: 0;
+        justify-content: space-around;
+
+    }
+
+    .card{
+        border-radius: 0;
+        padding: 0;
+        margin: 21px ;
+        min-width: 200xp;
+        max-width: 30%;
+    }
+    
+    .card-img-top{
+        border-radius: 0;
+    } 
+
+
